@@ -1,0 +1,11 @@
+[package]
+name = "spectral-graph-core"
+version = "0.1.0"
+edition = "2021"
+description = "Mathematically elegant spectral graph theory in pure Rust — Laplacian, eigenvalues, conservation ratio, Fiedler analysis"
+license = "MIT"
+repository = "https://github.com/SuperInstance/spectral-graph-core"
+keywords = ["graph", "laplacian", "spectral", "eigenvalue", "fiedler"]
+categories = ["mathematics", "science"]
+
+[dependencies]
