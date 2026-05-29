@@ -311,3 +311,12 @@ spectral-graph-core = "0.1"
 ## License
 
 MIT
+
+## Ecosystem Integration
+
+- Core foundation of the SuperInstance spectral ecosystem — provides graph Laplacians, spectral decompositions, and eigenspace utilities
+- Consumed by 13+ other SuperInstance crates for spectral analysis, clustering, and control
+- Integrates with `conservation-regime` for regime detection via spectral signatures
+- Feeds `spectral-mechanics` and `graph-thermodynamics` for physics-inspired graph analysis
+- Powers the `spectral-deadband` ↔ `neyman-pearson-gap` statistical testing pipeline
+
